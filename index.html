@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ashray Acharya — Business Strategy, Performance Marketing and Growth portfolio.">
+<title>Ashray Acharya | Strategy • Growth • Performance</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--ink:#101828;--muted:#667085;--line:#e4e7ec;--accent:#4f46e5;--accent2:#7c3aed;--soft:#eef2ff;--green:#067647;--greenbg:#ecfdf3;--dark:#0b1020}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}.wrap{max-width:1180px;margin:auto;padding:24px 20px 60px}a{color:inherit}
+.hero{background:linear-gradient(135deg,#0b1020 0%,#182044 58%,#5146b8 100%);color:#fff;border-radius:26px;padding:42px;position:relative;overflow:hidden;box-shadow:0 18px 45px rgba(16,24,40,.12)}.hero:before{content:"";position:absolute;width:420px;height:420px;border:1px solid rgba(255,255,255,.10);border-radius:50%;right:-160px;top:-190px}.hero:after{content:"";position:absolute;width:250px;height:250px;border:1px solid rgba(255,255,255,.08);border-radius:50%;right:-60px;top:-90px}.hero-grid{display:grid;grid-template-columns:1fr auto;gap:28px;align-items:end;position:relative;z-index:1}.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.72;font-weight:800}.hero h1{font-size:50px;line-height:1;margin:12px 0 10px;letter-spacing:-.035em}.hero .lead{font-size:18px;max-width:780px;line-height:1.6;color:#d9def0;margin:0}.contact{display:flex;gap:9px;flex-wrap:wrap;margin-top:22px}.pill{border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);padding:8px 11px;border-radius:999px;font-size:12px}.actions{display:flex;gap:9px;flex-wrap:wrap;justify-content:flex-end}.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:11px 14px;border-radius:11px;text-decoration:none;font-weight:800;font-size:13px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.1);color:#fff}.btn.primary{background:#fff;color:var(--ink);border-color:#fff}
+.nav{position:sticky;top:10px;z-index:10;margin:16px 0;background:rgba(245,247,251,.90);backdrop-filter:blur(14px);padding:7px;border:1px solid var(--line);border-radius:14px;display:flex;gap:5px;overflow:auto;box-shadow:0 5px 18px rgba(16,24,40,.04)}.nav button{border:0;background:transparent;padding:10px 13px;border-radius:9px;font-weight:800;color:var(--muted);cursor:pointer;white-space:nowrap}.nav button.active{background:#fff;color:var(--ink);box-shadow:0 1px 5px rgba(16,24,40,.08)}
+.section{display:none}.section.active{display:block}.grid{display:grid;gap:16px}.kpis{grid-template-columns:repeat(4,1fr);margin:18px 0}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:21px;box-shadow:0 3px 10px rgba(16,24,40,.035)}.kpi .num{font-size:28px;font-weight:850;letter-spacing:-.02em}.kpi .label{color:var(--muted);font-size:13px;line-height:1.4;margin-top:5px}.tag{display:inline-block;margin-top:12px;font-size:11px;padding:5px 8px;border-radius:999px;background:var(--greenbg);color:var(--green);font-weight:800}.two{grid-template-columns:1.2fr .8fr}.three{grid-template-columns:repeat(3,1fr)}h2{font-size:25px;letter-spacing:-.02em;margin:27px 0 12px}h3{margin:0 0 7px;font-size:17px}.muted{color:var(--muted)}.small{font-size:13px;line-height:1.6}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.12em;font-weight:850;color:var(--accent);margin-bottom:8px}
+.metric{display:flex;justify-content:space-between;gap:20px;padding:13px 0;border-bottom:1px solid var(--line)}.metric:last-child{border:0}.metric b{font-size:15px}.metric span{color:var(--muted);text-align:right;font-size:13px}.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{padding:8px 10px;background:#f2f4f7;border:1px solid var(--line);border-radius:10px;font-size:12px;font-weight:750}
+.quote{border-left:3px solid var(--accent);padding:2px 0 2px 16px;font-size:16px;line-height:1.55;font-weight:700;margin:0}.timeline{border-left:2px solid var(--line);margin-left:9px;padding-left:23px}.role{position:relative;margin:0 0 27px}.role:before{content:"";position:absolute;left:-31px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--accent);border:3px solid var(--bg)}.date{font-size:11px;color:var(--accent);font-weight:850;text-transform:uppercase;letter-spacing:.06em}.company{font-weight:850}.role ul{padding-left:18px;margin:10px 0 0}.role li{margin:7px 0;line-height:1.5;font-size:13px}
+.impact{position:relative;overflow:hidden}.impact .big{font-size:32px;font-weight:900;letter-spacing:-.03em}.impact .line{height:1px;background:var(--line);margin:15px 0}.impact .arrow{font-weight:900;color:var(--green)}.case-grid{grid-template-columns:repeat(3,1fr)}.case{display:flex;flex-direction:column;min-height:255px}.case .outcome{margin-top:auto;padding-top:15px;border-top:1px solid var(--line)}.case .outcome strong{font-size:22px}.bar{height:8px;background:#eaecf0;border-radius:99px;overflow:hidden;margin-top:9px}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:99px}.skill{margin:13px 0}.skill-head{display:flex;justify-content:space-between;font-size:13px;font-weight:750}
+.cert{display:flex;gap:12px;align-items:flex-start;padding:13px 0;border-bottom:1px solid var(--line)}.cert:last-child{border:0}.check{width:25px;height:25px;border-radius:8px;background:var(--soft);display:grid;place-items:center;color:var(--accent);font-weight:900;flex:0 0 auto}.footer{display:flex;justify-content:space-between;gap:15px;align-items:center;color:var(--muted);font-size:12px;margin-top:30px;padding:15px 2px}.footer a{text-decoration:none;font-weight:800;color:var(--ink)}.cta-card{background:linear-gradient(135deg,#101828,#252c55);color:#fff;border-radius:20px;padding:26px;display:flex;justify-content:space-between;align-items:center;gap:20px;margin-top:16px}.cta-card p{margin:6px 0 0;color:#cfd5e8;font-size:13px}.cta-card .btn{background:#fff;color:var(--ink);border-color:#fff}
+.contact-card{margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:flex;align-items:center;justify-content:space-between;gap:18px;box-shadow:0 8px 28px rgba(16,24,40,.08)}
+.contact-title{font-weight:900;font-size:15px}.contact-sub{font-size:12px;color:var(--muted);margin-top:3px}.contact-links{display:flex;gap:9px;flex-wrap:wrap;justify-content:flex-end}.contact-link{display:flex;flex-direction:column;gap:3px;text-decoration:none;padding:9px 12px;border:1px solid var(--line);border-radius:11px;background:#f9fafb}.contact-link span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:800}.contact-link strong{font-size:12px;color:var(--ink)}
+@media(max-width:900px){.kpis,.three,.case-grid{grid-template-columns:1fr 1fr}.hero-grid{grid-template-columns:1fr}.actions{justify-content:flex-start}.hero h1{font-size:42px}}
+@media(max-width:600px){.kpis,.three,.two,.case-grid{grid-template-columns:1fr}.wrap{padding:14px 12px 40px}.hero{padding:29px 22px;border-radius:20px}.hero h1{font-size:36px}.hero .lead{font-size:16px}.footer,.cta-card{flex-direction:column;align-items:flex-start}.nav{top:6px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <div class="hero-grid">
+    <div>
+      <div class="kicker">Business Strategy • Performance Marketing • Growth</div>
+      <h1>Ashray Acharya</h1>
+      <p class="lead">I work at the intersection of business strategy, performance marketing, analytics and AI-led automation — turning business problems into measurable growth.</p>
+      <div class="contact"><span class="pill">Assistant Manager – Business Strategy</span><span class="pill">Aristok Technologies</span><span class="pill">Pune, India</span></div>
+    </div>
+    <div class="actions">
+      <a class="btn primary" href="Ashray_Acharya_Resume.pdf" target="_blank">View Resume</a>
+      <a class="btn" href="https://www.linkedin.com/in/ashray-acharya" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <button class="btn" type="button" onclick="toggleContact()" aria-expanded="false" aria-controls="contactCard">Contact Ashray ↗</button>
+    </div>
+  </div>
+</header>
+
+<div id="contactCard" class="contact-card" hidden>
+  <div>
+    <div class="contact-title">Get in touch</div>
+    <div class="contact-sub">Choose the channel that works best for you.</div>
+  </div>
+  <div class="contact-links">
+    <a href="tel:+919755923976" class="contact-link"><span>Phone</span><strong>+91 97559 23976</strong></a>
+    <a href="mailto:ashrayempire31@gmail.com" class="contact-link"><span>Email</span><strong>ashrayempire31@gmail.com</strong></a>
+    <a href="https://www.linkedin.com/in/ashray-acharya" target="_blank" rel="noopener" class="contact-link"><span>LinkedIn</span><strong>ashray-acharya ↗</strong></a>
+  </div>
+</div>
+
+<nav class="nav" aria-label="Portfolio navigation">
+<button class="active" data-tab="overview">Overview</button><button data-tab="experience">Experience</button><button data-tab="impact">Impact & Case Studies</button><button data-tab="skills">Skills</button><button data-tab="credentials">Credentials</button>
+</nav>
+
+<section id="overview" class="section active">
+  <div class="grid kpis">
+    <div class="card kpi"><div class="num">10+</div><div class="label">Team members managed & mentored</div><span class="tag">Leadership</span></div>
+    <div class="card kpi"><div class="num">₹8Cr+</div><div class="label">Monthly managed spends</div><span class="tag">Portfolio scale</span></div>
+    <div class="card kpi"><div class="num">₹4Cr → ₹6.5Cr</div><div class="label">Google business scaled in 6 months</div><span class="tag">+62.5% scale</span></div>
+    <div class="card kpi"><div class="num">8+</div><div class="label">Accounts managed across 4 major domains</div><span class="tag">Multi-domain</span></div>
+  </div>
+  <div class="grid two">
+    <div class="card"><div class="eyebrow">Positioning</div><h3>Strategy that connects the dots</h3><p class="quote">Business problem → data → insight → strategy → execution → measurable outcome.</p><p class="small muted" style="margin-top:16px">My experience spans performance marketing, product and user analysis, business metrics, client solutioning, business development, team leadership and AI-enabled workflow automation.</p></div>
+    <div class="card"><div class="eyebrow">Industry exposure</div><h3>Cross-domain experience</h3><div class="chips"><span class="chip">Healthcare</span><span class="chip">E-commerce</span><span class="chip">Fintech</span><span class="chip">BFSI</span><span class="chip">Logistics</span><span class="chip">Automobile</span><span class="chip">OTT</span><span class="chip">Lead Generation</span></div></div>
+  </div>
+  <h2>Why hire me</h2>
+  <div class="grid three">
+    <div class="card"><div class="eyebrow">01 · Scale</div><h3>Comfortable with large portfolios</h3><p class="small muted">Managed ₹8Cr+ monthly spends and multi-domain portfolios while balancing growth, efficiency and business outcomes.</p></div>
+    <div class="card"><div class="eyebrow">02 · Ownership</div><h3>From analysis to action</h3><p class="small muted">Go beyond reporting: analyse product, users, competition and business metrics to identify the levers that can move the business.</p></div>
+    <div class="card"><div class="eyebrow">03 · Leverage</div><h3>AI as an operating advantage</h3><p class="small muted">Built interactive dashboards and AI-assisted workflows using Claude and GPT to reduce manual intervention and improve team efficiency.</p></div>
+  </div>
+</section>
+
+<section id="experience" class="section">
+  <h2>Experience</h2><div class="card"><div class="timeline">
+    <div class="role"><div class="date">Feb 2026 – Present</div><h3>Assistant Manager – Business Strategy <span class="company">· Aristok Technologies</span></h3><ul><li>Managed and mentored a team of 10+ people comprising interns, Business Analysts and Senior Business Analysts.</li><li>Managed 8+ accounts with monthly spends exceeding ₹8Cr across Healthcare, E-commerce, Fintech and BFSI.</li><li>Spearheaded business development pitches and presented to CXOs across multiple domains, showcasing strategic expertise and driving portfolio growth.</li><li>Conducted extensive analysis across product, user behaviour, competition landscape and business metrics including retention and LTV, scaling Google business from ₹4Cr to ₹6.5Cr in 6 months.</li><li>Built multiple interactive dashboards using AI tools such as Claude and GPT, reducing manual intervention and driving operational efficiency across the cluster.</li></ul></div>
+    <div class="role"><div class="date">Dec 2024 – Jan 2026</div><h3>Senior Business Analyst <span class="company">· Aristok Technologies</span></h3><ul><li>Managed 5+ brands across E-commerce, BFSI, Logistics and Lead Generation, including Liquid I.V., Ventura, Indira IVF and Porter.</li><li>Optimized Meta campaigns to 2x scale while reducing CAC by 56% through audience, creative and event optimization.</li><li>Designed and executed a funnel-based GTM strategy for Liquid I.V. India, generating ₹2Cr revenue and 150K Instagram profile visits within the first 6 months.</li><li>Improved CPVL by 35% for Indira IVF by restructuring Meta campaigns across demographics, creatives and communication.</li><li>Supported business development efforts by creating and presenting pitches to CXOs, contributing to new client acquisition.</li><li>Led organization-wide horizontal initiatives to promote strategic experimentation and accelerate business growth.</li></ul></div>
+    <div class="role"><div class="date">Mar 2023 – Dec 2024</div><h3>Business Analyst <span class="company">· Dentsu India</span></h3><ul><li>Managed a portfolio across E-commerce, BFSI, Logistics, Automobile, OTT and Lead Generation, including Marks & Spencer, Myntra, Tata Neu, Bajaj Auto and Purplle; overseeing ₹15Cr+ monthly spends.</li><li>Scaled Marks & Spencer India’s app business on Meta by 1.7x while improving ROAS by 21% YoY.</li><li>Developed an omnichannel strategy for Bajaj Auto’s Pulsar range, resulting in 10x lead growth at 57% lower CPL.</li><li>Leveraged Adobe Analytics for product-level campaign analysis, building user purchase flows and targeted audiences.</li><li>Maintained strong client relationships, ensuring satisfaction and sustained growth.</li></ul></div>
+    <div class="role"><div class="date">Aug 2022 – Oct 2022</div><h3>Business Development Associate <span class="company">· PlanetSpark</span></h3><ul><li>Drove sales for premium English-speaking courses by targeting relevant audiences to increase enrollment and revenue.</li></ul></div>
+  </div></div>
+</section>
+
+<section id="impact" class="section">
+  <h2>Business Impact</h2>
+  <div class="grid three">
+    <div class="card impact"><div class="eyebrow">Portfolio scale</div><div class="big">₹8Cr+</div><p class="small muted">Monthly managed spends across Healthcare, E-commerce, Fintech and BFSI in current role.</p></div>
+    <div class="card impact"><div class="eyebrow">Business growth</div><div class="big">₹4Cr → ₹6.5Cr</div><p class="small muted">Google business scaled over 6 months through product, user, competition and business-metric analysis.</p></div>
+    <div class="card impact"><div class="eyebrow">Efficiency</div><div class="big">56% lower CAC</div><p class="small muted">Achieved while scaling Meta campaigns 2x through audience, creative and event optimisation.</p></div>
+  </div>
+  <h2>Selected case studies</h2>
+  <div class="grid case-grid">
+    <div class="card case"><div class="eyebrow">Meta · Growth</div><h3>Scaling while improving efficiency</h3><p class="small muted">Optimised audience, creative and event strategy across Meta campaigns with a focus on scalable acquisition economics.</p><div class="outcome"><strong>2x scale</strong><br><span class="small muted">56% lower CAC</span></div></div>
+    <div class="card case"><div class="eyebrow">App Growth · Analytics</div><h3>Marks & Spencer India</h3><p class="small muted">Used performance marketing and analytics-led optimisation to scale the app business while improving return efficiency.</p><div class="outcome"><strong>1.7x app scale</strong><br><span class="small muted">21% YoY ROAS improvement</span></div></div>
+    <div class="card case"><div class="eyebrow">Lead Generation · GTM</div><h3>Bajaj Pulsar</h3><p class="small muted">Developed an omnichannel strategy focused on generating more qualified demand while improving acquisition efficiency.</p><div class="outcome"><strong>10x lead growth</strong><br><span class="small muted">57% lower CPL</span></div></div>
+    <div class="card case"><div class="eyebrow">Brand Growth · GTM</div><h3>Liquid I.V. India</h3><p class="small muted">Designed and executed a funnel-based GTM strategy spanning acquisition and social engagement.</p><div class="outcome"><strong>₹2Cr revenue</strong><br><span class="small muted">150K Instagram profile visits in first 6 months</span></div></div>
+    <div class="card case"><div class="eyebrow">Healthcare · Optimisation</div><h3>Indira IVF</h3><p class="small muted">Restructured Meta campaigns across demographics, creatives and communication to improve lead economics.</p><div class="outcome"><strong>35% improvement</strong><br><span class="small muted">Lower CPVL</span></div></div>
+    <div class="card case"><div class="eyebrow">AI · Operations</div><h3>AI-enabled decision support</h3><p class="small muted">Built interactive dashboards using Claude and GPT to reduce manual intervention and make recurring analysis more scalable.</p><div class="outcome"><strong>AI + dashboards</strong><br><span class="small muted">Workflow efficiency across the cluster</span></div></div>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <h2>Skills & Tools</h2>
+  <div class="grid two">
+    <div class="card"><div class="eyebrow">Growth stack</div><h3>Performance Marketing</h3><div class="chips"><span class="chip">Meta Ads</span><span class="chip">Google Ads</span><span class="chip">Digital Media Planning</span><span class="chip">Social Media Marketing</span><span class="chip">Campaign Optimisation</span></div><div class="skill"><div class="skill-head"><span>Performance strategy</span><span>Growth</span></div><div class="bar"><i style="width:92%"></i></div></div></div>
+    <div class="card"><div class="eyebrow">Decision stack</div><h3>Analytics & Business</h3><div class="chips"><span class="chip">Adobe Analytics</span><span class="chip">Audience Insights</span><span class="chip">Shopify Analytics</span><span class="chip">Singular</span><span class="chip">User Funnels</span><span class="chip">LTV & Retention</span><span class="chip">Strategic Consulting</span><span class="chip">Client Solutioning</span></div><div class="skill"><div class="skill-head"><span>Business & user analysis</span><span>Strategy</span></div><div class="bar"><i style="width:94%"></i></div></div></div>
+    <div class="card"><div class="eyebrow">Commercial stack</div><h3>Leadership & Growth</h3><div class="chips"><span class="chip">Team Management</span><span class="chip">Business Development</span><span class="chip">CXO Presentations</span><span class="chip">Client Engagement</span><span class="chip">Portfolio Management</span></div><div class="skill"><div class="skill-head"><span>Client & commercial ownership</span><span>Business</span></div><div class="bar"><i style="width:90%"></i></div></div></div>
+    <div class="card"><div class="eyebrow">Leverage stack</div><h3>AI & Automation</h3><div class="chips"><span class="chip">Claude</span><span class="chip">GPT</span><span class="chip">Interactive Dashboards</span><span class="chip">Workflow Automation</span><span class="chip">AI-assisted Analysis</span></div><div class="skill"><div class="skill-head"><span>AI-enabled operations</span><span>Efficiency</span></div><div class="bar"><i style="width:86%"></i></div></div></div>
+  </div>
+</section>
+
+<section id="credentials" class="section">
+  <h2>Credentials</h2>
+  <div class="grid two"><div class="card"><div class="eyebrow">Certifications</div><h3>Meta certifications</h3><div class="cert"><div class="check">✓</div><div><b>Meta Certified Media Buyer</b></div></div><div class="cert"><div class="check">✓</div><div><b>Meta Certified Performance Marketing Specialist</b></div></div><div class="cert"><div class="check">✓</div><div><b>Meta Certified Media Planner</b></div></div><div class="cert"><div class="check">✓</div><div><b>Meta Certified Discovery Commerce Specialist</b></div></div></div>
+  <div class="card"><div class="eyebrow">Education</div><h3>Computer Science + Data Science</h3><div class="metric"><b>B.Tech — Computer Science & Engineering</b><span>Medicaps University<br>2018–2022</span></div><div class="metric"><b>Specialization</b><span>Data Science</span></div><div class="metric"><b>CGPA</b><span>8.60</span></div><div class="metric"><b>Higher Secondary</b><span>Shri Agrasen Vidyalaya<br>73%</span></div></div></div>
+  <h2>Achievements</h2><div class="card"><div class="chips"><span class="chip">Best Account Award – Ventura Securities</span><span class="chip">Employee of the Quarter, Q1 2024 – Dentsu India</span><span class="chip">Man of the Tournament, 2020 – UPL University Premier League</span><span class="chip">Best Delegate – AIPPM, MUN IIT Indore</span><span class="chip">Cultural Club President – Medicaps University</span><span class="chip">Media Club President – Medicaps University</span><span class="chip">Aim and Utility Award</span></div></div>
+  <div class="cta-card"><div><h3 style="margin:0">Let's talk growth.</h3><p>Open to conversations around strategy, growth, performance marketing and business transformation.</p></div><a class="btn" href="mailto:ashrayempire31@gmail.com">Start a conversation ↗</a></div>
+</section>
+
+<footer class="footer"><span>© 2026 Ashray Acharya · Interactive candidate portfolio</span><span><a href="Ashray_Acharya_Resume.pdf" target="_blank">Resume</a> · <a href="https://www.linkedin.com/in/ashray-acharya" target="_blank" rel="noopener">LinkedIn</a></span></footer>
+</div>
+<script>
+const buttons=document.querySelectorAll('.nav button'),sections=document.querySelectorAll('.section');
+buttons.forEach(btn=>btn.addEventListener('click',()=>{buttons.forEach(b=>b.classList.remove('active'));btn.classList.add('active');sections.forEach(s=>s.classList.toggle('active',s.id===btn.dataset.tab));window.scrollTo({top:document.querySelector('.nav').offsetTop-8,behavior:'smooth'});history.replaceState(null,'','#'+btn.dataset.tab)}));
+</script>
+<script>
+function toggleContact(){
+  const card=document.getElementById('contactCard');
+  const btn=document.querySelector('[aria-controls="contactCard"]');
+  const open=card.hasAttribute('hidden');
+  if(open){card.removeAttribute('hidden'); btn.setAttribute('aria-expanded','true');}
+  else{card.setAttribute('hidden',''); btn.setAttribute('aria-expanded','false');}
+}
+</script>
+</body>
+</html>
